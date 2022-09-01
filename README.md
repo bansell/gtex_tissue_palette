@@ -94,7 +94,7 @@ gtx_tissue_col %>% arrange(desc(tissue_paste)) %>% tidyExt::print_all()
 
 Note
 [**gtex_tissue_col_hex.tsv**](https://github.com/bansell/gtex_tissue_palette/blob/main/gtex_tissue_col_hex.tsv)
-is also provided. Note this does not preserve the factor order for
+is also provided, but this does not preserve the factor order for
 plotting.
 
 To enforce the alphabetical order on the vertical axis if using
