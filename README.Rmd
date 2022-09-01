@@ -43,7 +43,7 @@ gtx_tissue_col <- read_rds('gtex_tissue_col_hex.Rds')
 gtx_tissue_col %>% arrange(desc(tissue_paste)) %>% tidyExt::print_all()
 ```
 
-Note [**gtex_tissue_col_hex.tsv**](https://github.com/bansell/gtex_tissue_palette/blob/main/gtex_tissue_col_hex.tsv) is also provided, but this does not preserve the factor order for plotting.
+Note [**gtex_tissue_col_hex.tsv**](https://github.com/bansell/gtex_tissue_palette/blob/main/gtex_tissue_col_hex.tsv) is also provided.
 
 ```{r,include=F,eval=F}
 DT::datatable( gtx_tissue_col,
@@ -62,9 +62,9 @@ DT::datatable( gtx_tissue_col,
 
 ```
 
-To enforce the alphabetical order on the vertical axis if using gtex_tissue_col_hex.tsv:
+To enforce the alphabetical order on the vertical axis:
 
-```{r,eval=F}
+```{r,eval=T}
 gtx_tissue_col <- gtx_tissue_col %>% 
   arrange(desc(tissue_paste)) %>%
    mutate(across(.fns=~fct_inorder(.)))
