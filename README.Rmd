@@ -1,0 +1,84 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width=8, fig.height=12
+)
+```
+
+# gtex_tissue_palette
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of gtex_tissue_palette is to provide a tab-delimited table of GTEx tissue labels, associated colour HEX and RGB codes.
+
+```{r,message=F,warning=F}
+library(tidyverse)
+```
+
+## Read data
+
+```{r }
+
+setwd('~/Git/gtex_tissue_palette/')
+gtx_tissue_col <- read_rds('gtex_tissue_col_hex.Rds')
+
+```
+
+```{r}
+
+gtx_tissue_col %>% arrange(desc(tissue_paste)) %>% tidyExt::print_all()
+```
+
+gtex_tissue_col_hex.tsv is also provided. Note this does not preserve the factor order for plotting.
+
+```{r,include=F,eval=F}
+DT::datatable( gtx_tissue_col,
+              rownames = FALSE,
+              caption = "GTEx Tissue Colours",
+              filter = "top",
+              extensions = c('Buttons',  'Scroller'),
+              options = list(
+                  dom = 'Bfrtip',
+                  buttons = c('copy', 'csv', 'excel'),
+                  deferRender = TRUE,
+                  scrollY = 400,
+                  scroller = TRUE
+                )
+              ) 
+
+```
+
+To enforce the alphabetical order on the vertical axis if using gtex_tissue_col_hex.tsv:
+
+```{r,eval=F}
+gtx_tissue_col <- gtx_tissue_col %>% 
+  arrange(desc(tissue_paste)) %>%
+   mutate(across(.fns=~fct_inorder(.)))
+  
+```
+
+## Plot the palette
+
+```{r,message=F,warning=F,dpi=300,out.height="175%",out.width="100%"}
+#out.width=1000, out.height=1200
+
+gtx_tissue_col %>% 
+  ggplot(aes(y=tissue_hr,x="",fill=tissue_color_hex)) + 
+  geom_tile(col='white',lwd=0.75,show.legend = F,cex=5) +
+  geom_text(aes(label=tissue_color_hex),cex=3) +
+  scale_fill_identity()+ theme_classic() + xlab('') + ylab('')
+
+```
+
+
+<!-- devtools::build_readme()  -->
+

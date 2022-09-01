@@ -1,0 +1,56 @@
+tissue_paste	tissue_hr	smts	smtd	tissue_abbrv	tissue_color_hex	tissue_color_rgb
+Whole_Blood	Whole Blood	Whole Blood	Whole Blood	WHLBLD	#FF00FF	2550255
+Vagina	Vagina	Vagina	Vagina	VAGINA	#EED5D2	238213210
+Uterus	Uterus	Uterus	Uterus	UTERUS	#EED5D2	238213210
+Thyroid	Thyroid	Thyroid	Thyroid	THYROID	#008B45	013969
+Testis	Testis	Testis	Testis	TESTIS	#A6A6A6	166166166
+Stomach	Stomach	Stomach	Stomach	STMACH	#FFD39B	255211155
+Spleen	Spleen	Spleen	Spleen	SPLEEN	#CDB79E	205183158
+Small_Intestine_Terminal_Ileum	Small Intestine - Terminal Ileum	Small Intestine	Terminal Ileum	SNTTRM	#CDB79E	205183158
+Skin_Sun_Exposed_Lower_leg	Skin - Sun Exposed (Lower leg)	Skin	Sun Exposed (Lower leg)	SKINS	#1E90FF	30144255
+Skin_Not_Sun_Exposed_Suprapubic	Skin - Not Sun Exposed (Suprapubic)	Skin	Not Sun Exposed (Suprapubic)	SKINNS	#3A5FCD	5895205
+Prostate	Prostate	Prostate	Prostate	PRSTTE	#D9D9D9	217217217
+Pituitary	Pituitary	Pituitary	Pituitary	PTTARY	#B4EEB4	180238180
+Pancreas	Pancreas	Pancreas	Pancreas	PNCREAS	#CD9B1D	20515529
+Ovary	Ovary	Ovary	Ovary	OVARY	#FFB6C1	255182193
+Nerve_Tibial	Nerve - Tibial	Nerve	Tibial	NERVET	#FFD700	2552150
+Muscle_Skeletal	Muscle - Skeletal	Muscle	Skeletal	MSCLSK	#7A67EE	122103238
+Minor_Salivary_Gland	Minor Salivary Gland	Minor Salivary Gland	Minor Salivary Gland	SLVRYG	#CDB79E	205183158
+Lung	Lung	Lung	Lung	LUNG	#9ACD32	15420550
+Liver	Liver	Liver	Liver	LIVER	#CDB79E	205183158
+Kidney_Medulla	Kidney - Medulla	Kidney	Medulla	KDNMDL	#CDB79E	205183158
+Kidney_Cortex	Kidney - Cortex	Kidney	Cortex	KDNCTX	#CDB79E	205183158
+Heart_Left_Ventricle	Heart - Left Ventricle	Heart	Left Ventricle	HRTLV	#7A378B	12255139
+Heart_Atrial_Appendage	Heart - Atrial Appendage	Heart	Atrial Appendage	HRTAA	#B452CD	18082205
+Fallopian_Tube	Fallopian Tube	Fallopian Tube	Fallopian Tube	FLLPNT	#EED5D2	238213210
+Esophagus_Muscularis	Esophagus - Muscularis	Esophagus	Muscularis	ESPMSL	#CDAA7D	205170125
+Esophagus_Mucosa	Esophagus - Mucosa	Esophagus	Mucosa	ESPMCS	#8B7355	13911585
+Esophagus_Gastroesophageal_Junction	Esophagus - Gastroesophageal Junction	Esophagus	Gastroesophageal Junction	ESPGEJ	#8B7355	13911585
+Colon_Transverse	Colon - Transverse	Colon	Transverse	CLNTRN	#EEC591	238197145
+Colon_Sigmoid	Colon - Sigmoid	Colon	Sigmoid	CLNSGM	#CDB79E	205183158
+Cervix_Endocervix	Cervix - Endocervix	Cervix	Endocervix	CVSEND	#EED5D2	238213210
+Cervix_Ectocervix	Cervix - Ectocervix	Cervix	Ectocervix	CVXECT	#EED5D2	238213210
+Cells_Transformed_fibroblasts	Cells - Transformed fibroblasts	Cells	Transformed fibroblasts	FIBRBLS	#9AC0CD	154192205
+Cells_EBV-transformed_lymphocytes	Cells - EBV-transformed lymphocytes	Cells	EBV	LCL	#EE82EE	238130238
+Breast_Mammary_Tissue	Breast - Mammary Tissue	Breast	Mammary Tissue	BREAST	#00CDCD	0205205
+Brain_Substantia_nigra	Brain - Substantia nigra	Brain	Substantia nigra	BRNSNG	#EEEE00	2382380
+Brain_Spinal_cord_cervical_c-1)	Brain - Spinal cord (cervical c-1)	Brain	Spinal cord (cervical c	BRNSPC	#EEEE00	2382380
+Brain_Putamen_basal_ganglia	Brain - Putamen basal ganglia	Brain	Putamen basal ganglia	BRNPTM	#EEEE00	2382380
+Brain_Nucleus_accumbens_basal_ganglia	Brain - Nucleus accumbens basal ganglia	Brain	Nucleus accumbens basal ganglia	BRNNCC	#EEEE00	2382380
+Brain_Hypothalamus	Brain - Hypothalamus	Brain	Hypothalamus	BRNHPT	#EEEE00	2382380
+Brain_Hippocampus	Brain - Hippocampus	Brain	Hippocampus	BRNHPP	#EEEE00	2382380
+Brain_Frontal_Cortex_BA9	Brain - Frontal Cortex (BA9)	Brain	Frontal Cortex (BA9)	BRNCTXB	#EEEE00	2382380
+Brain_Cortex	Brain - Cortex	Brain	Cortex	BRNCTXA	#EEEE00	2382380
+Brain_Cerebellum	Brain - Cerebellum	Brain	Cerebellum	BRNCHA	#EEEE00	2382380
+Brain_Cerebellar_Hemisphere	Brain - Cerebellar Hemisphere	Brain	Cerebellar Hemisphere	BRNCHB	#EEEE00	2382380
+Brain_Caudate_basal_ganglia	Brain - Caudate basal ganglia	Brain	Caudate basal ganglia	BRNCDT	#EEEE00	2382380
+Brain_Anterior_cingulate_cortex_BA24	Brain - Anterior cingulate cortex (BA24)	Brain	Anterior cingulate cortex (BA24)	BRNACC	#EEEE00	2382380
+Brain_Amygdala	Brain - Amygdala	Brain	Amygdala	BRNAMY	#EEEE00	2382380
+Bladder	Bladder	Bladder	Bladder	BLDDER	#CDB79E	205183158
+Artery_Tibial	Artery - Tibial	Artery	Tibial	ARTTBL	#FF0000	25500
+Artery_Femoral	Artery - Femoral	Artery	Femoral	ARTFMR	#FF4500	255690
+Artery_Coronary	Artery - Coronary	Artery	Coronary	ARTCRN	#EE6A50	23810680
+Artery_Aorta	Artery - Aorta	Artery	Aorta	ARTAORT	#8B1C62	1392898
+Adrenal_Gland	Adrenal Gland	Adrenal Gland	Adrenal Gland	ADRNLG	#8FBC8F	143188143
+Adipose_Visceral_Omentum	Adipose - Visceral (Omentum)	Adipose	Visceral (Omentum)	ADPVSC	#EE9A00	2381540
+Adipose_Subcutaneous	Adipose - Subcutaneous	Adipose	Subcutaneous	ADPSBQ	#FFA54F	25516579
