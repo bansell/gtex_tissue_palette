@@ -80,7 +80,6 @@ gtx_tissue_col %>%
   geom_tile(col='white',lwd=0.75,show.legend = F,cex=5) +
   geom_text(aes(label=tissue_color_hex),cex=3) +
   scale_fill_identity()+ theme_classic() + xlab('') + ylab('')
-
 ```
 
 

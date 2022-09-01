@@ -9,6 +9,7 @@ Spleen	Spleen	Spleen	Spleen	SPLEEN	#CDB79E	205183158
 Small_Intestine_Terminal_Ileum	Small Intestine - Terminal Ileum	Small Intestine	Terminal Ileum	SNTTRM	#CDB79E	205183158
 Skin_Sun_Exposed_Lower_leg	Skin - Sun Exposed (Lower leg)	Skin	Sun Exposed (Lower leg)	SKINS	#1E90FF	30144255
 Skin_Not_Sun_Exposed_Suprapubic	Skin - Not Sun Exposed (Suprapubic)	Skin	Not Sun Exposed (Suprapubic)	SKINNS	#3A5FCD	5895205
+Retina	Retina	Retina	Retina	RETINA	#FBFB00	2512510
 Prostate	Prostate	Prostate	Prostate	PRSTTE	#D9D9D9	217217217
 Pituitary	Pituitary	Pituitary	Pituitary	PTTARY	#B4EEB4	180238180
 Pancreas	Pancreas	Pancreas	Pancreas	PNCREAS	#CD9B1D	20515529
@@ -31,19 +32,19 @@ Colon_Sigmoid	Colon - Sigmoid	Colon	Sigmoid	CLNSGM	#CDB79E	205183158
 Cervix_Endocervix	Cervix - Endocervix	Cervix	Endocervix	CVSEND	#EED5D2	238213210
 Cervix_Ectocervix	Cervix - Ectocervix	Cervix	Ectocervix	CVXECT	#EED5D2	238213210
 Cells_Transformed_fibroblasts	Cells - Transformed fibroblasts	Cells	Transformed fibroblasts	FIBRBLS	#9AC0CD	154192205
-Cells_EBV-transformed_lymphocytes	Cells - EBV-transformed lymphocytes	Cells	EBV	LCL	#EE82EE	238130238
+Cells_EBV_transformed_lymphocytes	Cells - EBV-transformed lymphocytes	Cells	EBV	LCL	#EE82EE	238130238
 Breast_Mammary_Tissue	Breast - Mammary Tissue	Breast	Mammary Tissue	BREAST	#00CDCD	0205205
 Brain_Substantia_nigra	Brain - Substantia nigra	Brain	Substantia nigra	BRNSNG	#EEEE00	2382380
-Brain_Spinal_cord_cervical_c-1)	Brain - Spinal cord (cervical c-1)	Brain	Spinal cord (cervical c	BRNSPC	#EEEE00	2382380
-Brain_Putamen_basal_ganglia	Brain - Putamen basal ganglia	Brain	Putamen basal ganglia	BRNPTM	#EEEE00	2382380
-Brain_Nucleus_accumbens_basal_ganglia	Brain - Nucleus accumbens basal ganglia	Brain	Nucleus accumbens basal ganglia	BRNNCC	#EEEE00	2382380
+Brain_Spinal_cord_cervical_c_1	Brain - Spinal cord (cervical c-1)	Brain	Spinal cord (cervical c	BRNSPC	#EEEE00	2382380
+Brain_Putamen_basal_ganglia	Brain - Putamen (basal ganglia)	Brain	Putamen (basal ganglia)	BRNPTM	#EEEE00	2382380
+Brain_Nucleus_accumbens_basal_ganglia	Brain - Nucleus accumbens (basal ganglia)	Brain	Nucleus accumbens (basal ganglia)	BRNNCC	#EEEE00	2382380
 Brain_Hypothalamus	Brain - Hypothalamus	Brain	Hypothalamus	BRNHPT	#EEEE00	2382380
 Brain_Hippocampus	Brain - Hippocampus	Brain	Hippocampus	BRNHPP	#EEEE00	2382380
 Brain_Frontal_Cortex_BA9	Brain - Frontal Cortex (BA9)	Brain	Frontal Cortex (BA9)	BRNCTXB	#EEEE00	2382380
 Brain_Cortex	Brain - Cortex	Brain	Cortex	BRNCTXA	#EEEE00	2382380
 Brain_Cerebellum	Brain - Cerebellum	Brain	Cerebellum	BRNCHA	#EEEE00	2382380
 Brain_Cerebellar_Hemisphere	Brain - Cerebellar Hemisphere	Brain	Cerebellar Hemisphere	BRNCHB	#EEEE00	2382380
-Brain_Caudate_basal_ganglia	Brain - Caudate basal ganglia	Brain	Caudate basal ganglia	BRNCDT	#EEEE00	2382380
+Brain_Caudate_basal_ganglia	Brain - Caudate (basal ganglia)	Brain	Caudate (basal ganglia)	BRNCDT	#EEEE00	2382380
 Brain_Anterior_cingulate_cortex_BA24	Brain - Anterior cingulate cortex (BA24)	Brain	Anterior cingulate cortex (BA24)	BRNACC	#EEEE00	2382380
 Brain_Amygdala	Brain - Amygdala	Brain	Amygdala	BRNAMY	#EEEE00	2382380
 Bladder	Bladder	Bladder	Bladder	BLDDER	#CDB79E	205183158
