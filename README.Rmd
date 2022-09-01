@@ -69,7 +69,6 @@ gtx_tissue_col <- gtx_tissue_col %>%
 ## Plot the palette
 
 ```{r,message=F,warning=F,dpi=300,out.height="175%",out.width="100%"}
-#out.width=1000, out.height=1200
 
 gtx_tissue_col %>% 
   ggplot(aes(y=tissue_hr,x="",fill=tissue_color_hex)) + 
