@@ -9,6 +9,11 @@
 The goal of gtex_tissue_palette is to provide a tab-delimited table of
 GTEx tissue labels, associated colour HEX and RGB codes.
 
+Data wrangled from the Broad Institute files [gene expression by
+tissue](https://github.com/broadinstitute/gtex-public/blob/master/scripts/gene_expression_by_tissue.py)
+and
+[colors.json](https://raw.githubusercontent.com/broadinstitute/gtex-viz/7cfffd65f19fbcad216a0df3325cfd89e40d6952/boxplot/dev/colors.json)
+
 ``` r
 library(tidyverse)
 ```
@@ -87,8 +92,10 @@ gtx_tissue_col %>% arrange(desc(tissue_paste)) %>% tidyExt::print_all()
 #> #   ³​tissue_color_hex, ⁴​tissue_color_rgb
 ```
 
-gtex_tissue_col_hex.tsv is also provided. Note this does not preserve
-the factor order for plotting.
+Note
+[**gtex_tissue_col_hex.tsv**](https://github.com/bansell/gtex_tissue_palette/blob/main/gtex_tissue_col_hex.tsv)
+is also provided. Note this does not preserve the factor order for
+plotting.
 
 To enforce the alphabetical order on the vertical axis if using
 gtex_tissue_col_hex.tsv:

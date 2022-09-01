@@ -20,6 +20,11 @@ knitr::opts_chunk$set(
 
 The goal of gtex_tissue_palette is to provide a tab-delimited table of GTEx tissue labels, associated colour HEX and RGB codes.
 
+Data wrangled from the Broad Institute files
+[gene expression by tissue](https://github.com/broadinstitute/gtex-public/blob/master/scripts/gene_expression_by_tissue.py) and
+[colors.json](https://raw.githubusercontent.com/broadinstitute/gtex-viz/7cfffd65f19fbcad216a0df3325cfd89e40d6952/boxplot/dev/colors.json)
+
+
 ```{r,message=F,warning=F}
 library(tidyverse)
 ```
@@ -38,7 +43,7 @@ gtx_tissue_col <- read_rds('gtex_tissue_col_hex.Rds')
 gtx_tissue_col %>% arrange(desc(tissue_paste)) %>% tidyExt::print_all()
 ```
 
-gtex_tissue_col_hex.tsv is also provided. Note this does not preserve the factor order for plotting.
+Note [**gtex_tissue_col_hex.tsv**](https://github.com/bansell/gtex_tissue_palette/blob/main/gtex_tissue_col_hex.tsv) is also provided. Note this does not preserve the factor order for plotting.
 
 ```{r,include=F,eval=F}
 DT::datatable( gtx_tissue_col,
